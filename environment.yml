@@ -1,0 +1,15 @@
+name: sl-ssl-corruption-eval
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytho
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+    - mlflow
+    - torch
+    - notebook
+    - numpy
+
